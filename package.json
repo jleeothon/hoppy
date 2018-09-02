@@ -1,6 +1,6 @@
 {
   "name": "hoppy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Datasets of the International Phonetic Alphabet",
   "main": "index.js",
   "repository": "git@github.com:jleeothon/hoppy.git",
