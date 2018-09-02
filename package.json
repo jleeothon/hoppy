@@ -7,6 +7,10 @@
   "author": "Johnny Lee-Othon",
   "license": "MIT",
   "devDependencies": {
+    "immutable": "^3.8.2",
     "js-yaml": "^3.12.0"
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0"
   }
 }
