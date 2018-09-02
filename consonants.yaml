@@ -1,549 +1,545 @@
-# Lists sounds with dedicated symbols.
-
-consonants:
-
-  - voicing: unvoiced
-    place: bilabial
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: p
-
-  - voicing: voiced
-    place: bilabial
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: b
-
-  - voicing: unvoiced
-    place: dental/alveolar/postalveolar
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: t
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: d
-
-  - voicing: unvoiced
-    place: retroflex
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʈ
-
-  - voicing: voiced
-    place: retroflex
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɖ
-
-  - voicing: unvoiced
-    place: palatal
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: c
-
-  - voicing: voiced
-    place: palatal
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɟ
-
-  - voicing: unvoiced
-    place: velar
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: k
-
-  - voicing: voiced
-    place: velar
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɡ
-
-  - voicing: unvoiced
-    place: uvular
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: q
-
-  - voicing: voiced
-    place: uvular
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɢ
-
-  - voicing: voiceless
-    place: pharyngeal
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʡ
-
-  - voicing: unvoiced
-    place: glottal
-    manner: plosive
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʔ
-
-  - voicing: voiced
-    place: bilabial
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: m
-
-  - voicing: voiced
-    place: labiodental
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɱ
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: n
-
-  - voicing: voiced
-    place: retroflex
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɳ
-
-  - voicing: voiced
-    place: palatal
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɲ
-
-  - voicing: voiced
-    place: velar
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ŋ
-
-  - voicing: voiced
-    place: uvular
-    manner: nasal
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɴ
-
-  - voicing: voiced
-    place: bilabial
-    manner: trill
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʙ
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: trill
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: r
-
-  - voicing: voiced
-    place: uvular
-    manner: trill
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʀ
-
-  - voicing: voiced
-    place: labiodental
-    manner: tap
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ⱱ
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: tap
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɾ
-
-  - voicing: voiced
-    place: retroflex
-    manner: tap
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɽ
-
-  - voicing: voiced
-    place: alveolar
-    manner: lateral tap
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɺ
-
-  - voicing: unvoiced
-    place: bilabial
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɸ
-
-  - voicing: voiced
-    place: bilabial
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: β
-
-  - voicing: unvoiced
-    place: labiodental
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: f
-
-  - voicing: voiced
-    place: labiodental
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: v
-
-  - voicing: voiceless
-    place: labio-velar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʍ
-
-  - voicing: unvoiced
-    place: dental
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: θ
-
-  - voicing: voiced
-    place: dental
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ð
-
-  - voicing: unvoiced
-    place: alveolar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: s
-
-  - voicing: voiced
-    place: alveolar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: z
-
-  - voicing: unvoiced
-    place: postalveolar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʃ
-
-  - voicing: voiced
-    place: postalveolar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʒ
-
-  - voicing: unvoiced
-    place: alveolo-palatal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɕ
-
-  - voicing: voiced
-    place: alveolo-palatal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʑ
-
-  - voicing: voiceless
-    place: post-alveolo-velar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɧ
-
-  - voicing: unvoiced
-    place: retroflex
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʂ
-
-  - voicing: voiced
-    place: retroflex
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʐ
-
-  - voicing: unvoiced
-    place: palatal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ç
-
-  - voicing: voiced
-    place: palatal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʝ
-
-  - voicing: unvoiced
-    place: velar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: x
-
-  - voicing: voiced
-    place: velar
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɣ
-
-  - voicing: unvoiced
-    place: uvular
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: χ
-
-  - voicing: voiced
-    place: uvular
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʁ
-
-  - voicing: unvoiced
-    place: pharingeal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ħ
-
-  - voicing: voiced
-    place: pharingeal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʕ
-
-  - voicing: voiced
-    place: pharyngeal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʢ
-
-  - voicing: unvoiced
-    place: glottal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: h
-
-  - voicing: voiced
-    place: glottal
-    manner: fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɦ
-
-  - voicing: unvoiced
-    place: dental/alveolar/postalveolar
-    manner: lateral fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɬ
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: lateral fricative
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɮ
-
-  - voicing: voiced
-    place: labiodental
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʋ
-
-  - voicing: voiced
-    place: labio-palatal
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɥ
-
-  - voicing: voiced
-    place: labio-velar
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: w
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɹ
-
-  - voicing: voiced
-    place: retroflex
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɻ
-
-  - voicing: voiced
-    place: palatal
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: j
-
-  - voicing: voiced
-    place: velar
-    manner: approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɰ
-
-  - voicing: voiced
-    place: dental/alveolar/postalveolar
-    manner: lateral approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: l
-
-  - voicing: voiced
-    place: retroflex
-    manner: lateral approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ɭ
-
-  - voicing: voiced
-    place: palatal
-    manner: lateral approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʎ
-
-  - voicing: voiced
-    place: velar
-    manner: lateral approximant
-    mechanism: pulmonic
-    airstream: egressive
-    symbol: ʟ
-
-  - voicing: voiceless
-    place: bilabial
-    manner: click
-    mechanism: lingual
-    airstream: ingressive
-    symbol: ʘ
-
-  - voicing: voiceless
-    place: dental
-    manner: click
-    mechanism: lingual
-    airstream: ingressive
-    symbol: ǀ
-
-  - voicing: voiceless
-    place: alveolar/postalveolar
-    manner: click
-    mechanism: lingual
-    airstream: ingressive
-    symbol: ǃ
-
-  - voicing: voiceless
-    place: palato-alveolar
-    manner: click
-    mechanism: lingual
-    airstream: ingressive
-    symbol: ǂ
-
-  - voicing: voiceless
-    place: alveolar/palatal
-    manner: click
-    mechanism: lingual
-    airstream: ingressive
-    symbol: ǁ
-
-  - voicing: voiced
-    place: bilabial
-    manner: plosive
-    mechanism: glottalic
-    airstream: ingressive
-    symbol: ɓ
-
-  - voicing: voiced
-    place: dental/alveolar
-    manner: plosive
-    mechanism: glottalic
-    airstream: ingressive
-    symbol: ɗ
-
-  - voicing: voiced
-    place: palatal
-    manner: plosive
-    mechanism: glottalic
-    airstream: ingressive
-    symbol: ʄ
-
-  - voicing: voiced
-    place: velar
-    manner: plosive
-    mechanism: glottalic
-    airstream: ingressive
-    symbol: ɠ
-
-  - voicing: voiced
-    place: uvular
-    manner: plosive
-    mechanism: glottalic
-    airstream: ingressive
-    symbol: ʛ
+- voicing: voiceless
+  place: bilabial
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: p
+
+- voicing: voiced
+  place: bilabial
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: b
+
+- voicing: voiceless
+  place: dental/alveolar/postalveolar
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: t
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: d
+
+- voicing: voiceless
+  place: retroflex
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʈ
+
+- voicing: voiced
+  place: retroflex
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɖ
+
+- voicing: voiceless
+  place: palatal
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: c
+
+- voicing: voiced
+  place: palatal
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɟ
+
+- voicing: voiceless
+  place: velar
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: k
+
+- voicing: voiced
+  place: velar
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɡ
+
+- voicing: voiceless
+  place: uvular
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: q
+
+- voicing: voiced
+  place: uvular
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɢ
+
+- voicing: voiceless
+  place: pharyngeal
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʡ
+
+- voicing: voiceless
+  place: glottal
+  manner: plosive
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʔ
+
+- voicing: voiced
+  place: bilabial
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: m
+
+- voicing: voiced
+  place: labiodental
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɱ
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: n
+
+- voicing: voiced
+  place: retroflex
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɳ
+
+- voicing: voiced
+  place: palatal
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɲ
+
+- voicing: voiced
+  place: velar
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ŋ
+
+- voicing: voiced
+  place: uvular
+  manner: nasal
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɴ
+
+- voicing: voiced
+  place: bilabial
+  manner: trill
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʙ
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: trill
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: r
+
+- voicing: voiced
+  place: uvular
+  manner: trill
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʀ
+
+- voicing: voiced
+  place: labiodental
+  manner: tap
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ⱱ
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: tap
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɾ
+
+- voicing: voiced
+  place: retroflex
+  manner: tap
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɽ
+
+- voicing: voiced
+  place: alveolar
+  manner: lateral tap
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɺ
+
+- voicing: voiceless
+  place: bilabial
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɸ
+
+- voicing: voiced
+  place: bilabial
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: β
+
+- voicing: voiceless
+  place: labiodental
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: f
+
+- voicing: voiced
+  place: labiodental
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: v
+
+- voicing: voiceless
+  place: labio-velar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʍ
+
+- voicing: voiceless
+  place: dental
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: θ
+
+- voicing: voiced
+  place: dental
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ð
+
+- voicing: voiceless
+  place: alveolar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: s
+
+- voicing: voiced
+  place: alveolar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: z
+
+- voicing: voiceless
+  place: postalveolar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʃ
+
+- voicing: voiced
+  place: postalveolar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʒ
+
+- voicing: voiceless
+  place: alveolo-palatal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɕ
+
+- voicing: voiced
+  place: alveolo-palatal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʑ
+
+- voicing: voiceless
+  place: post-alveolo-velar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɧ
+
+- voicing: voiceless
+  place: retroflex
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʂ
+
+- voicing: voiced
+  place: retroflex
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʐ
+
+- voicing: voiceless
+  place: palatal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ç
+
+- voicing: voiced
+  place: palatal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʝ
+
+- voicing: voiceless
+  place: velar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: x
+
+- voicing: voiced
+  place: velar
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɣ
+
+- voicing: voiceless
+  place: uvular
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: χ
+
+- voicing: voiced
+  place: uvular
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʁ
+
+- voicing: voiceless
+  place: pharingeal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ħ
+
+- voicing: voiced
+  place: pharingeal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʕ
+
+- voicing: voiced
+  place: pharyngeal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʢ
+
+- voicing: voiceless
+  place: glottal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: h
+
+- voicing: voiced
+  place: glottal
+  manner: fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɦ
+
+- voicing: voiceless
+  place: dental/alveolar/postalveolar
+  manner: lateral fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɬ
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: lateral fricative
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɮ
+
+- voicing: voiced
+  place: labiodental
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʋ
+
+- voicing: voiced
+  place: labio-palatal
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɥ
+
+- voicing: voiced
+  place: labio-velar
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: w
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɹ
+
+- voicing: voiced
+  place: retroflex
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɻ
+
+- voicing: voiced
+  place: palatal
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: j
+
+- voicing: voiced
+  place: velar
+  manner: approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɰ
+
+- voicing: voiced
+  place: dental/alveolar/postalveolar
+  manner: lateral approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: l
+
+- voicing: voiced
+  place: retroflex
+  manner: lateral approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ɭ
+
+- voicing: voiced
+  place: palatal
+  manner: lateral approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʎ
+
+- voicing: voiced
+  place: velar
+  manner: lateral approximant
+  mechanism: pulmonic
+  airstream: egressive
+  symbol: ʟ
+
+- voicing: voiceless
+  place: bilabial
+  manner: click
+  mechanism: lingual
+  airstream: ingressive
+  symbol: ʘ
+
+- voicing: voiceless
+  place: dental
+  manner: click
+  mechanism: lingual
+  airstream: ingressive
+  symbol: ǀ
+
+- voicing: voiceless
+  place: alveolar/postalveolar
+  manner: click
+  mechanism: lingual
+  airstream: ingressive
+  symbol: ǃ
+
+- voicing: voiceless
+  place: palato-alveolar
+  manner: click
+  mechanism: lingual
+  airstream: ingressive
+  symbol: ǂ
+
+- voicing: voiceless
+  place: alveolar/palatal
+  manner: click
+  mechanism: lingual
+  airstream: ingressive
+  symbol: ǁ
+
+- voicing: voiced
+  place: bilabial
+  manner: plosive
+  mechanism: glottalic
+  airstream: ingressive
+  symbol: ɓ
+
+- voicing: voiced
+  place: dental/alveolar
+  manner: plosive
+  mechanism: glottalic
+  airstream: ingressive
+  symbol: ɗ
+
+- voicing: voiced
+  place: palatal
+  manner: plosive
+  mechanism: glottalic
+  airstream: ingressive
+  symbol: ʄ
+
+- voicing: voiced
+  place: velar
+  manner: plosive
+  mechanism: glottalic
+  airstream: ingressive
+  symbol: ɠ
+
+- voicing: voiced
+  place: uvular
+  manner: plosive
+  mechanism: glottalic
+  airstream: ingressive
+  symbol: ʛ
