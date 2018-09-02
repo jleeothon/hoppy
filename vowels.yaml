@@ -1,0 +1,139 @@
+- height: close
+  backness: front
+  roundedness: unrounded
+  symbol: i
+
+- height: close
+  backness: front
+  roundedness: rounded
+  symbol: y
+
+- height: close
+  backness: central
+  roundedness: unrounded
+  symbol: ɨ
+
+- height: close
+  backness: central
+  roundedness: rounded
+  symbol: ʉ
+
+- height: close
+  backness: back
+  roundedness: unrounded
+  symbol: ɯ
+
+- height: close
+  backness: back
+  roundedness: rounded
+  symbol: u
+
+- height: near-close
+  backness: front
+  roundedness: unrounded
+  symbol: ɪ
+
+- height: near-close
+  backness: front
+  roundedness: rounded
+  symbol: ʏ
+
+- height: near-close
+  backness: back
+  roundedness: rounded
+  symbol: ʊ
+
+- height: close-mid
+  backness: front
+  roundedness: unrounded
+  symbol: e
+
+- height: close-mid
+  backness: front
+  roundedness: rounded
+  symbol: ø
+
+- height: close-mid
+  backness: central
+  roundedness: unrounded
+  symbol: ɘ
+
+- height: close-mid
+  backness: central
+  roundedness: rounded
+  symbol: ɵ
+
+- height: close-mid
+  backness: back
+  roundedness: unrounded
+  symbol: ɤ
+
+- height: close-mid
+  backness: back
+  roundedness: rounded
+  symbol: o
+
+- height: mid
+  backness: central
+  roundedness: unrounded
+  symbol: ə
+
+- height: open-mid
+  backness: front
+  roundedness: unrounded
+  symbol: ɛ
+
+- height: open-mid
+  backness: front
+  roundedness: rounded
+  symbol: œ
+
+- height: open-mid
+  backness: central
+  roundedness: unrounded
+  symbol: ɜ
+
+- height: open-mid
+  backness: central
+  roundedness: rounded
+  symbol: ɞ
+
+- height: open-mid
+  backness: back
+  roundedness: unrounded
+  symbol: ʌ
+
+- height: open-mid
+  backness: back
+  roundedness: rounded
+  symbol: ɔ
+
+- height: near-open
+  backness: front
+  roundedness: unrounded
+  symbol: æ
+
+- height: near-open
+  backness: central
+  roundedness: unrounded
+  symbol: æ
+
+- height: open
+  backness: front
+  roundedness: unrounded
+  symbol: a
+
+- height: open
+  backness: front
+  roundedness: rounded
+  symbol: Œ
+
+- height: open
+  backness: back
+  roundedness: unrounded
+  symbol: ɑ
+
+- height: open
+  backness: back
+  roundedness: rounded
+  symbol: ɒ
