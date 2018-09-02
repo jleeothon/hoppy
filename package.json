@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:jleeothon/hoppy.git",
   "author": "Johnny Lee-Othon",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "js-yaml": "^3.12.0"
+  }
 }
